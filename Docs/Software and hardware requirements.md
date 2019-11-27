@@ -28,3 +28,14 @@
 ### Установка в виде контейнера Docker
 
 Система должна удовлетворять требованиям, предъявляемым [Docker](https://www.docker.com/)
+
+### Требования к браузерам
+
+Для работы коннектора требуется наличие одного из браузеров:
+
+- Google Chrome
+- Mozilla FireFox
+- Edge
+- Opera
+- Apple Safari
+- Internet Explorer 11
