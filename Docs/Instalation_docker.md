@@ -1,7 +1,3 @@
----
-typora-copy-images-to: images
----
-
 # Установка с использованием контейнеров Docker
 
 ## Получение контейнеров
@@ -72,8 +68,8 @@ curl http://<hostname>:8080
 
 В Windows, по умолчанию, команды curl нет, поэтому проверка осуществляется в интернет-браузере, последовательно переходя по двум ссылкам:
 http://<hostname>:5884/_utils, при этом будет показано окно, похожее на скриншот:
-![image-20191205113220891](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191205113220891.png)
+![image-20191205113220891](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191205113220891.png)
 
 http://<hostname>:8080/, при этом должно открыться окно 1С коннектора
-![image-20191205113432980](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191205113432980.png)
+![image-20191205113432980](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191205113432980.png)
 
