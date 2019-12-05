@@ -34,14 +34,14 @@
 
 Предварительно шаблон необходимо загрузить в локальную папку на компьютере пользователя. Затем выбрать слева "Шаблоны" и нажать на кнопку загрузки шаблона:
 
-![image-20191205163530441](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191205163530441.png)
+![image-20191205163530441](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191205163530441.png)
 
 Далее необходимо выбрать файл и нажать кнопку Открыть или Open (в зависимости от языковых настроек компьютера):
-![image-20191205163841100](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191205163841100.png)
+![image-20191205163841100](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191205163841100.png)
 
 После этого шаблон появится в списке доступных шаблонов:
 
-![image-20191205164317579](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191205164317579.png)
+![image-20191205164317579](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191205164317579.png)
 
 ### Обновление шаблона
 
@@ -49,7 +49,7 @@
 
 ### Удаление шаблона
 
-Удаление шаблона происходит при нажатии на символ корзины ![image-20191205164608207](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191205164608207.png)рядом с выбранным шаблоном. При этом шаблон удаляется из локального хранилища 1С Коннектора.
+Удаление шаблона происходит при нажатии на символ корзины ![image-20191205164608207](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191205164608207.png)рядом с выбранным шаблоном. При этом шаблон удаляется из локального хранилища 1С Коннектора.
 
 ## Создание датасета в Яндекс DataLens
 
