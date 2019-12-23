@@ -10,14 +10,14 @@
 
 Соединение создается в Яндекс DataLens. Далее создается соединение в клиенте коннектора, для этого надо нажать на плюс
 
-![image-20191223094621753](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191223094621753.png)
+![image-20191223094621753](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191223094621753.png)
 
 В открывшемся окне необходимо ввести имя соединения (обязательно) и описание соединения:
-![image-20191223094832751](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191223094832751.png)
+![image-20191223094832751](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191223094832751.png)
 
 После этого создается соединение с пустыми настройками
 
-![image-20191223095425899](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191223095425899.png)
+![image-20191223095425899](../images/image-20191223095425899.png)
 
 ## Установка параметров соединения
 
@@ -25,13 +25,13 @@
 
 ### Установка параметров соединения к сервису OData 1C
 
-![image-20191223095234910](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191223095234910.png)
+![image-20191223095234910](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191223095234910.png)
 
 
 
 ### Установка параметров соединения к Яндекс DataLens
 
-![image-20191223095333093](D:\work\DataLens\Docs\1CDataLens\Docs\images\image-20191223095333093.png)
+![image-20191223095333093](https://github.com/webzavod/1CDataLens/blob/master/Docs/images/image-20191223095333093.png)
 
 ### Выбор сущностей и полей сущностей 1С для загрузки
 
