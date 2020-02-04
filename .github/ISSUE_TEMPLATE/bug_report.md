@@ -1,38 +1,35 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Отчет об ошибке
+about: Создайте отчет об ошибке, что бы помочь нам сделать коннектор лучше
 title: ''
 labels: ''
 assignees: ''
 
+
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Опишите ошибку**
+Как можно подробнее опишите ошибку
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Шаги по повторению**
+Опишите, пошагово, действия, которые привели к ошибке:
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+1. Прошел туда
+2. Сделал то-то
+3. Увидел ошибку
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Ожидаемое поведение**
+Как можно подробнее опишите ожидаемое поведение коннектора.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Скриншоты**
+Если возможно, приложите скриншоты
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Пожалуйста, опишите конфигурацию:**
 
-**Additional context**
-Add any other context about the problem here.
+ - Операционная система: [например, Windows 10 Home]
+ - Браузер [например: chrome, safari, Edge]
+ - Версия платформы 1С [Например 8.3.8]
+ - Конфигурация 1С [Например, 1С УПП 8.3]
+
+**Дополнительная информация**
+Любая другая дополнительная информация, которая, по вашему мнению, будет полезна.
