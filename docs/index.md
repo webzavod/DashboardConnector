@@ -12,6 +12,6 @@
 
 | Загрузка                                        | Сообщить об ошибке                            |
 | ----------------------------------------------- | --------------------------------------------- |
-|https://github.com/webzavod/1CDataLens/releases  | https://github.com/webzavod/1CDataLens/issues |
+|[https://github.com/webzavod/1CDataLens/releases](https://github.com/webzavod/1CDataLens/releases)  | [https://github.com/webzavod/1CDataLens/issues](https://github.com/webzavod/1CDataLens/issues) |
 
 
