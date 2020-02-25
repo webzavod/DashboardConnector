@@ -1,0 +1,231 @@
+{
+    "templateId": 1,
+    "title": "Отчет о прибылях",
+    "description": "Для 1С УПП. Строится на основе регистра Выручка и Себестоимость продаж. С разрезами по менеджерам, складам, датам операции и номенклатуре. Так же есть валюта взаиморасчетов. ",
+    "entities": [
+      {
+        "id": "AccumulationRegister_ВыручкаИСебестоимостьПродаж",
+        "properties": [
+          {
+            "name": "Period",
+            "type": "Edm.DateTime",
+            "nullable": true
+          },
+          {
+            "name": "LineNumber",
+            "type": "Edm.Int64",
+            "nullable": false
+          },
+          {
+            "name": "АналитикаУчетаНоменклатуры_Key",
+            "type": "Edm.Guid",
+            "nullable": true
+          },
+          {
+            "name": "Подразделение_Key",
+            "type": "Edm.Guid",
+            "nullable": true
+          },
+          {
+            "name": "Менеджер_Key",
+            "type": "Edm.Guid",
+            "nullable": true
+          },
+          {
+            "name": "Склад",
+            "type": "Edm.String",
+            "nullable": true
+          },
+          {
+            "name": "СуммаВыручки",
+            "type": "Edm.Double",
+            "nullable": true
+          },
+          {
+            "name": "СуммаВыручкиБезНДС",
+            "type": "Edm.Double",
+            "nullable": true
+          },
+          {
+            "name": "Стоимость",
+            "type": "Edm.Double",
+            "nullable": true
+          },
+          {
+            "name": "СтоимостьБезНДС",
+            "type": "Edm.Double",
+            "nullable": true
+          },
+          {
+            "name": "ВалютаВзаиморасчетов_Key",
+            "type": "Edm.Guid",
+            "nullable": true
+          },
+          {
+            "name": "Склад_Type",
+            "type": "Edm.String",
+            "nullable": true
+          },
+          {
+            "name": "ДокументДвижения_Type",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_Валюты",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Description",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_КлючиАналитикиУчетаНоменклатуры",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Номенклатура_Key",
+            "type": "Edm.Guid",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_Контрагенты",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Description",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_Номенклатура",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Description",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_Партнеры",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Description",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_Пользователи",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Description",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_Склады",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Description",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      },
+      {
+        "id": "Catalog_СтруктураПредприятия",
+        "properties": [
+          {
+            "name": "Ref_Key",
+            "type": "Edm.Guid",
+            "nullable": false
+          },
+          {
+            "name": "Predefined",
+            "type": "Edm.Boolean",
+            "nullable": true
+          },
+          {
+            "name": "PredefinedDataName",
+            "type": "Edm.String",
+            "nullable": true
+          },
+          {
+            "name": "Description",
+            "type": "Edm.String",
+            "nullable": true
+          },
+          {
+            "name": "Code",
+            "type": "Edm.String",
+            "nullable": true
+          }
+        ],
+        "function": null,
+        "filter": null
+      }
+    ]
+  }
+ }
