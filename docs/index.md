@@ -14,4 +14,4 @@
 | ----------------------------------------------- | --------------------------------------------- |
 |[https://github.com/webzavod/1CDataLens/releases](https://github.com/webzavod/1CDataLens/releases)  | [https://github.com/webzavod/1CDataLens/issues](https://github.com/webzavod/1CDataLens/issues) |
 
-
+[Шаблоны отчетов](https://github.com/webzavod/1CDataLens/tree/master/ReportTemplates)
