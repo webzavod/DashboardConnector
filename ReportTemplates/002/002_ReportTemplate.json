@@ -1,0 +1,309 @@
+{
+    "templateId": 2,
+    "title": "Отчет по розничным продажам",
+    "description": "Для 1С:Управление торговлей. Строится на основеDocument_ОтчетОРозничныхПродажах_Товары. С разрезами по менеджерам, видам номенклатуры, наоменклатуре",
+    "entities": [
+        {
+            "Id": "Document_ОтчетОРозничныхПродажах_Товары",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "LineNumber",
+                "Type": "Edm.Int64",
+                "Nullable": false
+              },
+              {
+                "Name": "Номенклатура_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "Характеристика_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "Упаковка_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "КоличествоУпаковок",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "Количество",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "Цена",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "Сумма",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "СтавкаНДС",
+                "Type": "Edm.String",
+                "Nullable": true
+              },
+              {
+                "Name": "СуммаНДС",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "ПроцентРучнойСкидки",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "СуммаРучнойСкидки",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "КоличествоУпаковокФакт",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "КоличествоУпаковокУчет",
+                "Type": "Edm.Double",
+                "Nullable": true
+              },
+              {
+                "Name": "СтатусУказанияСерий",
+                "Type": "Edm.Int16",
+                "Nullable": true
+              },
+              {
+                "Name": "Партнер_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "ИдентификаторСтроки",
+                "Type": "Edm.String",
+                "Nullable": true
+              },
+              {
+                "Name": "Продавец_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "Помещение_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "Серия_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "АналитикаУчетаНоменклатуры_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "НоменклатураНабора_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "ХарактеристикаНабора_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "АналитикаУчетаНаборов_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_ВидыНоменклатуры",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_Номенклатура",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Code",
+                "Type": "Edm.String",
+                "Nullable": true
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              },
+              {
+                "Name": "ВидНоменклатуры_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_Контрагенты",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_Организации",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_Партнеры",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              },
+              {
+                "Name": "Code",
+                "Type": "Edm.String",
+                "Nullable": true
+              },
+              {
+                "Name": "Клиент",
+                "Type": "Edm.Boolean",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_Пользователи",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Подразделение_Key",
+                "Type": "Edm.Guid",
+                "Nullable": true
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_СерииНоменклатуры",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          },
+          {
+            "Id": "Catalog_ХарактеристикиНоменклатуры",
+            "opentype": null,
+            "Properties": [
+              {
+                "Name": "Ref_Key",
+                "Type": "Edm.Guid",
+                "Nullable": false
+              },
+              {
+                "Name": "Description",
+                "Type": "Edm.String",
+                "Nullable": true
+              }
+            ],
+            "Function": null,
+            "query": null
+          }
+    ]
+}
