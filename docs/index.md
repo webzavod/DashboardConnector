@@ -25,8 +25,7 @@
 [Шаблоны отчетов](https://github.com/webzavod/DashboardConnector/tree/master/ReportTemplates)
 
 
+| [Скачать дистрибутив](https://github.com/webzavod/DashboardConnector/releases) | [Обращение в поддержку](https://github.com/webzavod/DashboardConnector/issues) |
+|:----------------:|:----------------:|
 
 
-**Скачать:** [https://github.com/webzavod/DashboardConnector/releases](https://github.com/webzavod/DashboardConnector/releases)
-
-**Поддержка:** [https://github.com/webzavod/DashboardConnector/issues](https://github.com/webzavod/DashboardConnector/issues)
