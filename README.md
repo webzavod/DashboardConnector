@@ -3,4 +3,4 @@
 
 Документация в https://github.com/webzavod/1CDataLens/wiki
 
-дистрибутивы в https://github.com/webzavod/1CDataLens/releases
+Дистрибутивы в https://github.com/webzavod/1CDataLens/releases
