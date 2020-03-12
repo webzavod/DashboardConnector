@@ -27,7 +27,7 @@
 [Обращение в поддержку](https://github.com/webzavod/DashboardConnector/issues)
 
 [Скачать дистрибутив](https://github.com/webzavod/DashboardConnector/releases)
----------------------
+--------------------
 
 
 
